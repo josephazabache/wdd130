@@ -4,6 +4,7 @@ body {
 }
 nav a {
     text-align: center;
+    color: black;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -18,9 +19,54 @@ main section {
     height: 725px;
 }
 body {
-    background-color: gray;
+    background-color: white;
     opacity: 0.3;
 }
 header {
     background-color: #fcfcfc;
 }
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+.book, .join {
+    background-color: lightcyan;
+    opacity: 0.3;
+    color: black;
+}
+.book:hover, .join:hover{
+    background-color: white;
+    color: black;
+}
+#background {
+    background-color: white;
+}
+.msg {
+    background-color: white;
+}
+footer {
+    background-color: lightblue;
+    color: white;
+}
+.home-title {
+    color: black;
+}
+h4 {
+    color: black;
+}
+.msg h2 {
+    color: black;
+}
+.msg p {
+    color: black;
+}
+footer a {
+    color: black;
+}
+footer a:hover {
+    color: black;
+}
+
+
+
+
