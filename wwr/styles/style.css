@@ -20,8 +20,7 @@ main section {
     height: 725px;
 }
 body {
-    background-color: white;
-    opacity: 0.3;
+    background-color: #fcfcfc;
 }
 header {
     background-color: #fcfcfc;
@@ -44,11 +43,12 @@ nav a:hover {
     background-color: white;
 }
 .msg {
-    background-color: white;
+    background-color: lightgreen;
+    opacity: 0.3;
 }
 footer {
     background-color: lightblue;
-    color: white;
+    color: black;
 }
 .home-title {
     color: black;
