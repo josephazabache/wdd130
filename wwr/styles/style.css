@@ -1,6 +1,7 @@
 body {
     max-width: 1600px;
     margin: 0 auto;
+    background-color: #fcfcfc;
 }
 nav a {
     text-align: center;
@@ -18,9 +19,6 @@ main section {
 }
 #background {
     height: 725px;
-}
-body {
-    background-color: #fcfcfc;
 }
 header {
     background-color: #fcfcfc;
