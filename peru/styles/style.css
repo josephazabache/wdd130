@@ -6,6 +6,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
@@ -130,16 +131,20 @@ footer p a:hover {
 }
 #home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: repeat(3, 1fr);
 }
-.rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
-}
 .culture-card, .food-card, .macchu-picchu-card, .macchu-picchu-card, .invasion.card , .papa-card, .ceviche-card{
-    margin: 100px;   
+     margin: 100px 0;
+} 
+.macchu-picchu-card{ 
+    grid-column: 2/3; 
+    grid-row: 2/3; 
+} 
+.ceviche-card{ 
+    grid-column: 4/5; 
+    grid-row: 2/3; 
 }
-
 .card-img {
     border: 10px solid #1D3557;
     transition: transform .5s;
@@ -213,12 +218,8 @@ nav {
         margin-top: 25px;
     }
 }
-#rivers-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.idaho-card {
-    width: 100%;
-
-}
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+  }
